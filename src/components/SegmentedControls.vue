@@ -56,9 +56,9 @@ defineEmits(['clickOnControl'])
 .segmented-controls {
   border-radius: 25px;
   background-color: var(--base-50);
-  -webkit-backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(22px);
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
   flex-shrink: 0;
   height: 50px;
@@ -80,7 +80,7 @@ defineEmits(['clickOnControl'])
   &__active-marker {
     background-color: var(--grey-solid-10);
     border-radius: 21px;
-    box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.10);
     height: 100%;
     position: absolute;
     transition: transform .4s cubic-bezier(.65,0,.35,1);

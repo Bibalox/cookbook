@@ -17,7 +17,6 @@ init()
 </script>
 
 <template>
-  <div class="safe-area-cover" />
   <background-image
     src="/images/home-background.jpeg"
     blurry
@@ -41,14 +40,6 @@ body {
 
 button, a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.safe-area-cover {
-  background: linear-gradient(180deg, rgba(0, 0, 0, .25) 20%, rgba(0, 0, 0, .1) 60%, rgba(0, 0, 0, 0) 100%);
-  height: calc(env(safe-area-inset-top) + 30px);
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 #app {

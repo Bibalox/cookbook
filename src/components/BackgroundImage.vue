@@ -23,20 +23,20 @@ defineProps({
 
 <style lang="scss">
 .background-image {
-  height: 100%;
+  height: 110%;
   left: 0;
   max-height: 900px;
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 110%;
   z-index: -1;
 
   &__image {
     height: 100%;
     object-fit: cover;
-    -webkit-mask-image: linear-gradient(black 35%, transparent 90%);
-    mask-image: linear-gradient(black 35%, transparent 90%);
+    -webkit-mask-image: linear-gradient(transparent 5%, black 50%, transparent 90%);
+    mask-image: linear-gradient(transparent 5%, black 50%, transparent 90%);
     width: 100%;
 
     &--blurry {
